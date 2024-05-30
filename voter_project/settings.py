@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-3rmkwp@az^j6*mowbohtk*us&831$%d(o=csy03j$f#(c_t@p@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app',
+                'voting-jet.vercel.app', 'voterfrontend1-903z07qy9-aditya-reddys-projects-237a9066.vercel.app']
 
 
 # Application definition
@@ -57,7 +58,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React frontend URL
+   "https://voterfrontend1-903z07qy9-aditya-reddys-projects-237a9066.vercel.app",  # React frontend URL
 ]
 
 ROOT_URLCONF = 'voter_project.urls'
